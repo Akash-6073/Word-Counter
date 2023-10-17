@@ -7,6 +7,7 @@ function App() {
   return (
     <>
           <Navbar  />
+          <h1 style={{textAlign : "center"}} className='my-3'>Task - I</h1>
     <div className="container">
       <Textform heading="Enter your Text here"/>
     </div>
