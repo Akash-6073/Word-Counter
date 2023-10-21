@@ -10,7 +10,7 @@ export default function Textform(props) {
             n=0;
   }
     else{
-         n=text.trim().split(" ").length;
+         n=text.trim().split(/\s+/).length;
         }
   return (
     <>
